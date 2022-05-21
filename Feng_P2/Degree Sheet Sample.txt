@@ -1,0 +1,3 @@
+Comp1 1
+Math Calculus 2
+Intro to Computer Science 3

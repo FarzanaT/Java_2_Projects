@@ -1,0 +1,14 @@
+13
+Pet Company, Dog Food, 54.13
+Pet Clever, Dog Food, 45.83
+Pet Friends, Dog Food, 58.21
+Pet Company, Dog Toy, 19.99
+Pet Clever, Dog Toy, 21.45
+Pet Friends, Dog Toy, 15.95
+Pet Friends, Cat Toy, 12.42
+Pet Clever, Cat Toy, 9.99
+Pet Company, Cat Toy, 7.75
+Country Store, Dog Toy, 12.23
+Pet Clever, Chew Toy, 12.97
+Pet Friends, Chew Toy, 10.14
+Pet Company, Chew Toy, 7.33
