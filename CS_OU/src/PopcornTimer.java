@@ -17,26 +17,6 @@ public class PopcornTimer {
 	   System.out.println (a.substring(0, 'c'));
 	   } 
 	   
-/*
- if (bagOunces < 2){
-  System.out.println ("Too small");  
- }
- else if (bagOunces > 10){
-    System.out.println ("Too large");  
- }
- else {
-    int num = 6 * bagOunces;
-  System.out.println (num + " seconds");  
- }
-//}
-   }
 
-   public static void main (String [] args) {
-      Scanner scnr = new Scanner(System.in);
-      int userOunces;
-
-      userOunces = scnr.nextInt();
-      printPopcornTime(userOunces);
-   } */
 }
 }

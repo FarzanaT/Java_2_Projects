@@ -4,13 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-//OLD
+//NEW
 class TriangleTest {
 	
 	// Define the margin of error for double comparisons.
@@ -61,7 +60,6 @@ class TriangleTest {
 		assertArrayEquals(expected, triangle.getSides(), EPSILON, message);
 	}
 	
-
 	// Define a helper method to check the output of all angle getters.
 	private static void checkAngles(Triangle triangle, double[] expected, 
 			String message) {
@@ -71,11 +69,6 @@ class TriangleTest {
 		assertArrayEquals(expected, triangle.getAngles(), EPSILON, message);
 	}
 	
-	public static double[][] getAngles() {
-		return ANGLES;
-	}
-
-
 	@Test
 	void testIsTriangle() {
 		for (int idx = 0; idx < SIDES.length; ++idx) {
@@ -434,7 +427,7 @@ class TriangleTest {
 		checkSides(triangle, sides, "");
 		checkAngles(triangle, angles, "");
 		
-		assertFalse(triangle.setSideA(0));  //HERE
+		assertFalse(triangle.setSideA(0));
 		assertFalse(triangle.setSideB(0));
 		assertFalse(triangle.setSideC(0));
 		checkSides(triangle, sides, "");

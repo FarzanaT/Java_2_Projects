@@ -18,47 +18,8 @@ public class HW22
 	// found exception.
 	public static void main(String[] args) throws FileNotFoundException
 	{
-		// Construct a Scanner object to read guesses from the keyboard.
-		Scanner keyboard = new Scanner(System.in);
 		
-		// The game loop runs until this variable is no longer "yes".
-		String s = "HackerRank";
-		String s2 = keyboard.nextLine();
-		System.out.println (s + " " + s2);
 		
-		}
+	}
 }
-
-
-
-/***
- * public class Book{
-private String title;
-private String author;
-private String tableOfContents = "";
-private int nextPage = 1;
-public Book (String title, String author){
-	this.title = title;
-	this.author = author;	
-}
-public void addChapter (String title, int pageNum){
-	tableOfContents += "\n" + title + "..." + nextPage;
-	nextPage += pageNum;
-}
-public int getPages (){
-return this.nextPage-1;	
-}
-public String getTableOfContents (){
-return this.tableOfContents;	
-}
-public String toString (){
-String var = title + "\n" + author;
-return var;
-}	
-}
- * 
- * 
- */
-
-
 
